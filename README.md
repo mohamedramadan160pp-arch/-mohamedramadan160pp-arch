@@ -28,8 +28,24 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=tokyonight" height="165"/>
+  <!-- عدد المتابعين -->
+  <img src="https://img.shields.io/github/followers/your-username?style=for-the-badge&logo=github&color=blueviolet" />
+  <img src="https://komarev.com/ghpvc/?username=your-username&style=for-the-badge&color=ff69b4" />
+</p>
+
+<p align="center">
+  <!-- احصائيات عامة -->
+  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight" height="170"/>
+</p>
+
+<p align="center">
+  <!-- اللغات الأكثر استخداماً -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=tokyonight" height="170"/>
+</p>
+
+<p align="center">
+  <!-- الستريك -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight" height="170"/>
 </p>
 
 ---
