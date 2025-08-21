@@ -1,0 +1,196 @@
+@import url('https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+* {
+    font-family: ;Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: white;
+    top: 0;
+    position: fixed;
+   margin-top:0px;
+    width: 100%;
+    z-index: 999;
+display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+     text-transform: uppercase;
+     align-items: center;
+     padding-left: 50px;
+
+}
+.navbar a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #333;
+    padding-left: 10px;
+    padding-right: 50px;
+
+
+}
+.navbar a:hover {
+    color: red;}
+
+
+    .home{
+    padding: 100px 100px;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background: url("pc.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    .home h2 {
+      padding-left: 900px;
+      padding-top: 100px;
+        font-size: 2.2em;
+        color:black;
+        text-align: center;
+        font-style:oblique;
+    }
+    .text{
+        text-align: right;
+        padding-top: 25px;
+        font-size:1.5em;
+        font-style:unset;
+        color: black;
+}
+    .btn{
+        display: inline-block;
+        font-size: 1.2em;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        margin-left: 900px;
+        margin-top: 30px;
+    }
+    .btn:hover {
+        background-color: red;
+        transform: scale(1.05)
+    }
+    .services {
+        margin-bottom: 60px;
+        background-color: black
+    }
+    .title{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 2.5em;
+        font-weight: 600;
+        margin-top: 20px;
+        font-style: oblique;
+    } 
+    .container {
+        background-color: black;
+    margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card {
+        margin-top: 190px;
+        color: black;
+        width: 200px;
+        height: auto;
+        background-color: white;
+        margin: 20px;
+        border-radius: 10px;
+   box-shadow: 0 10px 25px rgba(1, 1, 1, 15%);
+        font-size: 1.2em;
+        padding:9px;
+        transition: :background-color 0.7 ease, transform 0.3s ease;
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+.card h3 {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.titles{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 40px;
+    font-style: oblique;
+    
+}
+.containerz{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact{
+    text-align: center;
+    background-color:beige;
+    padding: 50px 50px;
+    margin-top: 50px;
+}
+#po{
+    
+margin-top: 190px;
+        color: black;
+        width: 200px;
+        height: auto;
+        background-color: white;
+        margin: 20px;
+        border-radius: 10px;
+   box-shadow: 0 10px 25px rgba(1, 1, 1, 15%);
+        font-size: 1.2em;
+        padding:9px;
+        transition: background-color 0.7s ease, transform 0.3s ease;}
+        #po :hover{
+    transform: scale(1.1);}
+        
+.phone{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+.po :hover{
+    transform: scale(1.1);}
+#email{
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 10px;
+    width: 700px;
+    height: auto;
+    color: black;
+    width: auto;
+
+}
+#email p{
+    font-size: 1.2em;
+    color: black;
+    padding-top: 10px;
+    text-decoration: none;
+    transition: calc(0.7s ease, transform 0.3s ease);
+}
+#email p:hover{
+    transform: scale(1.1);
+}
